@@ -22,7 +22,15 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="flex items-center justify-center py-6 mb-3 text-amber-200 text-3xl ">
+          Header
+        </header>
+        <hr className="mb-10"></hr>
         {children}
+
+        <footer className="flex items-center justify-center py-6 text-amber-200 text-3xl ">
+          Footer
+        </footer>
       </body>
     </html>
   );
