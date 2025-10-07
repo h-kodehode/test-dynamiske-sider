@@ -2,9 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default async function ProductsPage() {
-  const res = await fetch("http://localhost:3000/api/fetchApi");
+  // const res = await fetch("http://localhost:3000/api/fetchApi");
 
-  console.log(res);
+  // console.log(res);
   // const products = await res.json();
 
   return (
